@@ -1,0 +1,1701 @@
+1   START
+2   THREADINIT tid:1
+3   ENABLE-LIFECYCLE tid:1 component: id:0 state:BIND-APP
+4   ATTACH-Q tid:1 queue:1090968376
+5   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+6   POST src:2 msg:1 dest:-1 delay:0
+7   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+8   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+9   POST src:2 msg:2 dest:-1 delay:0
+10   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+11   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+12   POST src:2 msg:3 dest:-1 delay:0
+13   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+14   LOOP tid:1 queue:1090968376
+15   CALL tid:1 msg:1
+16   RET tid:1 msg:1
+17   CALL tid:1 msg:2
+18   TRIGGER-LIFECYCLE tid:1 component: id:0 state:BIND-APP
+19   ENABLE-LIFECYCLE tid:1 component: id:0 state:BINDAPP-DONE
+20   ENABLE-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+21   RET tid:1 msg:2
+22   CALL tid:1 msg:3 beginAtomic
+23   TRIGGER-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+138 rwId:1 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:112
+139 rwId:2 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:88
+147 rwId:3 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:40
+155 rwId:4 WRITE tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:208
+159 rwId:5 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:48
+199 rwId:6 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+205 rwId:7 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+221 rwId:8 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+330 rwId:9 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+383 rwId:10 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+384 rwId:11 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+410 rwId:12 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:120
+411 rwId:13 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:68
+435 rwId:14 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+449 rwId:15 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:120
+450 rwId:16 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:68
+464 rwId:17 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+471 rwId:18 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+492 rwId:19 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+527 rwId:20 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+633 rwId:21 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+746 rwId:22 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+752 rwId:23 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+772 rwId:24 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+773 rwId:25 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+871 rwId:26 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+883 rwId:27 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+884 rwId:28 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+901 rwId:29 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+902 rwId:30 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+976 rwId:31 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+1058 rwId:32 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+1064 rwId:33 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+1084 rwId:34 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1085 rwId:35 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1419 rwId:36 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+1431 rwId:37 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1432 rwId:38 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1465 rwId:39 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1466 rwId:40 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1515 rwId:41 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1516 rwId:42 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1687 rwId:43 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1688 rwId:44 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1722 rwId:45 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1723 rwId:46 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1771 rwId:47 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+1853 rwId:48 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+1859 rwId:49 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+1879 rwId:50 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+1880 rwId:51 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+2127 rwId:52 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+2139 rwId:53 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+2140 rwId:54 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+2200 rwId:55 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+2201 rwId:56 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+2211 rwId:57 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+2218 rwId:58 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+2233 rwId:59 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:56
+2318 rwId:60 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:56
+2641 rwId:61 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+2644 rwId:62 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:16
+2645 rwId:63 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:16
+2655 rwId:64 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+2773 rwId:65 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+2855 rwId:66 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+2861 rwId:67 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+2881 rwId:68 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+2882 rwId:69 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3772 rwId:70 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+3784 rwId:71 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3785 rwId:72 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3818 rwId:73 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3819 rwId:74 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3857 rwId:75 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3858 rwId:76 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3892 rwId:77 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3893 rwId:78 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+3944 rwId:79 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+4056 rwId:80 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+4062 rwId:81 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+4082 rwId:82 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4083 rwId:83 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4159 rwId:84 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4160 rwId:85 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4332 rwId:86 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4333 rwId:87 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4373 rwId:88 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4374 rwId:89 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4492 rwId:90 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+4498 rwId:91 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+4518 rwId:92 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4519 rwId:93 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4577 rwId:94 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4578 rwId:95 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4640 rwId:96 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4641 rwId:97 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4693 rwId:98 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4694 rwId:99 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4793 rwId:100 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+4914 rwId:101 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+4920 rwId:102 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+4940 rwId:103 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+4941 rwId:104 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5681 rwId:105 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+5693 rwId:106 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5694 rwId:107 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5727 rwId:108 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5728 rwId:109 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5766 rwId:110 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5767 rwId:111 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5801 rwId:112 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5802 rwId:113 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5886 rwId:114 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+5892 rwId:115 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+5912 rwId:116 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5913 rwId:117 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5989 rwId:118 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+5990 rwId:119 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6140 rwId:120 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6141 rwId:121 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6181 rwId:122 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6182 rwId:123 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6300 rwId:124 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+6306 rwId:125 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+6326 rwId:126 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6327 rwId:127 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6385 rwId:128 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6386 rwId:129 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6448 rwId:130 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6449 rwId:131 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6501 rwId:132 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6502 rwId:133 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+6828   ACCESS tid:1 accessId:1
+6829   ENABLE-EVENT tid:1 view:1091101392 event:0
+7284 rwId:134 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+7287 rwId:135 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:16
+7288 rwId:136 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:16
+7296 rwId:137 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+7436 rwId:138 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+7442 rwId:139 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+7462 rwId:140 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+7463 rwId:141 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8215 rwId:142 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+8227 rwId:143 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8228 rwId:144 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8245 rwId:145 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8246 rwId:146 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8299 rwId:147 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8300 rwId:148 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8334 rwId:149 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8335 rwId:150 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8419 rwId:151 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+8425 rwId:152 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+8445 rwId:153 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8446 rwId:154 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8522 rwId:155 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8523 rwId:156 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8673 rwId:157 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8674 rwId:158 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8708 rwId:159 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8709 rwId:160 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8830 rwId:161 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+8836 rwId:162 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+8856 rwId:163 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8857 rwId:164 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8941 rwId:165 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+8953 rwId:166 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8954 rwId:167 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8971 rwId:168 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+8972 rwId:169 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9028 rwId:170 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9029 rwId:171 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9063 rwId:172 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9064 rwId:173 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9114 rwId:174 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+9222 rwId:175 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+9228 rwId:176 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+9248 rwId:177 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9249 rwId:178 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9342 rwId:179 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9343 rwId:180 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9821 rwId:181 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+9822 rwId:182 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10049 rwId:183 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+10083 rwId:184 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10084 rwId:185 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10118 rwId:186 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10119 rwId:187 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10239 rwId:188 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+10245 rwId:189 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+10265 rwId:190 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10266 rwId:191 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10389 rwId:192 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10390 rwId:193 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10838 rwId:194 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10839 rwId:195 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10912 rwId:196 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+10946 rwId:197 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10947 rwId:198 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10993 rwId:199 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+10994 rwId:200 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+11161   ACCESS tid:1 accessId:2
+11162   ENABLE-EVENT tid:1 view:1091108792 event:0
+11261 rwId:201 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+11262 rwId:202 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+11451 rwId:203 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+11452 rwId:204 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12014 rwId:205 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+12062   ACCESS tid:1 accessId:3
+12063   ENABLE-EVENT tid:1 view:1091093688 event:0
+12297 rwId:206 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12298 rwId:207 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12332 rwId:208 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12333 rwId:209 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12450 rwId:210 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+12532 rwId:211 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+12538 rwId:212 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+12558 rwId:213 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12559 rwId:214 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12805 rwId:215 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+12817 rwId:216 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12818 rwId:217 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12840 rwId:218 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+12841 rwId:219 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13089 rwId:220 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13090 rwId:221 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13124 rwId:222 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13125 rwId:223 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13257 rwId:224 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+13370 rwId:225 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+13376 rwId:226 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+13396 rwId:227 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13397 rwId:228 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13485 rwId:229 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+13497 rwId:230 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13498 rwId:231 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13531 rwId:232 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13532 rwId:233 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13678 rwId:234 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13679 rwId:235 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13719 rwId:236 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13720 rwId:237 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13840 rwId:238 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+13846 rwId:239 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+13866 rwId:240 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+13867 rwId:241 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14131 rwId:242 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+14143 rwId:243 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14144 rwId:244 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14177 rwId:245 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14178 rwId:246 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14223 rwId:247 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14224 rwId:248 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14553 rwId:249 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14554 rwId:250 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14588 rwId:251 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14589 rwId:252 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+14780 rwId:253 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+15171 rwId:254 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:120
+15172 rwId:255 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:68
+15611 rwId:256 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+15707 rwId:257 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+15816 rwId:258 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+15822 rwId:259 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+15842 rwId:260 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+15843 rwId:261 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+15974 rwId:262 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+15986 rwId:263 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+15987 rwId:264 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16051 rwId:265 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16052 rwId:266 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16086 rwId:267 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16087 rwId:268 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16121 rwId:269 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16122 rwId:270 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16203 rwId:271 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+16209 rwId:272 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+16229 rwId:273 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16230 rwId:274 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16319 rwId:275 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16320 rwId:276 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16696 rwId:277 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16697 rwId:278 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16922 rwId:279 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+16956 rwId:280 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16957 rwId:281 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16991 rwId:282 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+16992 rwId:283 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+17255 rwId:284 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:48
+17260 rwId:285 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:120
+17266 rwId:286 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:28
+17317 rwId:287 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:48
+17477 rwId:288 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+17582 rwId:289 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+17606 rwId:290 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:48
+17669 rwId:291 WRITE tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:28
+17772 rwId:292 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:212
+17780 rwId:293 READ tid:1 obj:0x41085b18 class:Landroid/os/Handler; field:20
+17787   ACCESS tid:1 accessId:4
+17788   POST src:1 msg:4 dest:-1 delay:0
+17795   INSTANCE-INTENT tid:1 instance:1091066024 intentId:1
+17796   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091066024 state:RESUME-ACT
+17797   ENABLE-EVENT tid:1 view:0 event:3
+17798   ENABLE-EVENT tid:1 view:0 event:4
+17799   ENABLE-EVENT tid:1 view:0 event:5
+17800   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091069336
+17801   POST src:1 msg:5 dest:-1 delay:0
+17802   ADD_IDLE_HANDLER idler:1091144296 queue:1090968376
+17803   RET tid:1 msg:3 endAtomic
+17804   CALL tid:1 msg:4 beginAtomic
+17806 rwId:294 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:12
+17821   ENTRY tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41096628
+17822 rwId:295 READ tid:1 obj:0x41096628 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+17823   ENTRY tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x41096638
+17830   EXIT tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x41096638
+17831   EXIT tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41096628
+17832 rwId:296 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+17833 rwId:297 WRITE tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:228
+17834 rwId:298 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:12
+17835   ENTRY tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41096628
+17836 rwId:299 READ tid:1 obj:0x41096628 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+17851   EXIT tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41096628
+17866 rwId:300 READ-STATIC tid:1 class:Lcom/example/tworelatedcycle/MainActivity$1; field:2147
+17906 rwId:301 READ tid:1 obj:0x409bc460 class:Ljava/lang/Thread; field:48
+17913 rwId:302 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17914 rwId:303 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17915 rwId:304 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17916 rwId:305 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17919 rwId:306 WRITE tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17927 rwId:307 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17928 rwId:308 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17930 rwId:309 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17931 rwId:310 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17932 rwId:311 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17933 rwId:312 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17934 rwId:313 WRITE tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17935 rwId:314 WRITE tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:12
+17937 rwId:315 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17938 rwId:316 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17941 rwId:317 WRITE tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17946 rwId:318 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17947 rwId:319 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17948 rwId:320 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17949 rwId:321 WRITE tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:12
+17950 rwId:322 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:16
+17951 rwId:323 READ tid:1 obj:0x41098c18 class:Ljava/lang/StringBuilder; field:8
+17959   ACCESS tid:1 accessId:5
+17960   LOCK tid:1 lock-obj:0x4106a3d0
+17961 rwId:324 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+17971 rwId:325 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+17972 rwId:326 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+17976   ACCESS tid:1 accessId:6
+17977   UNLOCK tid:1 lock-obj:0x4106a3d0
+18019 rwId:327 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:12
+18041 rwId:328 WRITE tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:16
+18042 rwId:329 WRITE tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:48
+18055 rwId:330 READ tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:48
+18086 rwId:331 WRITE tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:40
+18087 rwId:332 WRITE tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:24
+18088 rwId:333 WRITE tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:1379
+18091 rwId:334 WRITE tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:64
+18092 rwId:335 WRITE tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:8
+18093 rwId:336 READ tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:16
+18108   ACCESS tid:1 accessId:7
+18109   LOCK tid:1 lock-obj:0x41099098
+18110 rwId:337 READ tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:72
+18111 rwId:338 WRITE tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:72
+18112 rwId:339 READ tid:1 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:1379
+18113   ACCESS tid:1 accessId:8
+18114   FORK par-tid:1 child-tid:3
+18115   UNLOCK tid:1 lock-obj:0x41099098
+18126   THREADINIT tid:3
+18128 rwId:340 READ-STATIC tid:3 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:2147
+18130   ACCESS tid:3 accessId:9
+18131   LOCK tid:3 lock-obj:0x4106a3d0
+18132 rwId:341 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18156   EXIT tid:3 meth:substring class:Ljava/lang/String; obj:0x41099248
+18158 rwId:342 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18159 rwId:343 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18163   ACCESS tid:3 accessId:10
+18164   UNLOCK tid:3 lock-obj:0x4106a3d0
+18171 rwId:344 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18198 rwId:345 WRITE tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18218 rwId:346 WRITE tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:16
+18219 rwId:347 WRITE tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:48
+18274 rwId:348 READ tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:48
+18305 rwId:349 WRITE tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:40
+18306 rwId:350 WRITE tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:24
+18307 rwId:351 WRITE tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:1379
+18323   WRITE tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:64
+18324 rwId:353 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:12
+18325   ACCESS tid:3 accessId:11
+18326   ATTACH-Q tid:3 queue:1091147312
+18332 rwId:354 WRITE tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:8
+18333 rwId:355 READ tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:16
+18349   ACCESS tid:1 accessId:12
+18350   LOCK tid:1 lock-obj:0x41099490
+18351 rwId:356 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18377 rwId:357 READ-STATIC tid:3 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:2147
+18383 rwId:358 READ tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:72
+18384 rwId:359 WRITE tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:72
+18385 rwId:360 READ tid:1 obj:0x41099490 class:Lcom/example/tworelatedcycle/MainActivity$1$2; field:1379
+18386   ACCESS tid:1 accessId:14
+18387   FORK par-tid:1 child-tid:4
+18388   UNLOCK tid:1 lock-obj:0x41099490
+18398   THREADINIT tid:4
+18400 rwId:361 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18409   ACCESS tid:3 accessId:13
+18429   LOCK tid:3 lock-obj:0x4106a3d0
+18430 rwId:362 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18464 rwId:363 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+18465 rwId:364 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:212
+18469   ENTRY tid:3 meth:<init> class:Ljava/lang/String; obj:0x410999a0
+18506 rwId:365 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18507 rwId:366 READ tid:1 obj:0x41085b18 class:Landroid/os/Handler; field:20
+18514   ACCESS tid:1 accessId:16
+18515   POST src:1 msg:6 dest:-1 delay:0
+18526   RET tid:1 msg:4 endAtomic
+18527   CALL tid:1 msg:5 beginAtomic
+18528 rwId:367 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18533 rwId:368 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18543 rwId:369 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18544 rwId:370 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18548 rwId:371 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18554   ACCESS tid:3 accessId:15
+18555   UNLOCK tid:3 lock-obj:0x4106a3d0
+18565 rwId:372 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18574 rwId:373 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+18576 rwId:374 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+18586   POST src:1 msg:7 dest:-1 delay:0
+18587 rwId:375 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18596 rwId:376 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:216
+18637 rwId:377 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:84
+18655 rwId:378 READ tid:3 obj:0x41099b48 class:Landroid/os/Handler; field:20
+18662 rwId:379 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:12
+18663   NATIVE-ENTRY tid:5 thread-name:Binder Thread #2
+18664   POST src:5 msg:8 dest:-1 delay:0
+18665   NATIVE-EXIT tid:5 thread-name:Binder Thread #2
+18666   NATIVE-ENTRY tid:5 thread-name:Binder Thread #2
+18667   POST src:5 msg:9 dest:-1 delay:0
+18668   NATIVE-EXIT tid:5 thread-name:Binder Thread #2
+18669   ACCESS tid:3 accessId:17
+18670   POST src:3 msg:10 dest:-1 delay:0
+18682 rwId:380 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18698   POST src:1 msg:11 dest:-1 delay:0
+18699   RET tid:1 msg:5 endAtomic
+18700   CALL tid:1 msg:6 beginAtomic
+18708 MrwId:381 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18718 rwId:382 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:12
+18719   ACCESS tid:3 accessId:18
+18720   ENTRY tid:1 meth:loadClass class:Ljava/lang/BootClassLoader; obj:0x409c24d0
+18728   LOOP tid:3 queue:1091147312
+18753   CALL tid:3 msg:10
+18758 rwId:383 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:12
+18759   ENTRY tid:3 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41096628
+18760 rwId:384 READ tid:3 obj:0x41096628 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+18761   ENTRY tid:3 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x41096638
+18768   EXIT tid:3 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x41096638
+18769   EXIT tid:3 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41096628
+18770 rwId:385 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+18772 rwId:386 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+18775 rwId:387 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+18777 rwId:388 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:228
+18778 rwId:389 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:12
+18779   ENTRY tid:3 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41096628
+18780 rwId:390 READ tid:3 obj:0x41096628 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+18801 rwId:391 READ tid:1 obj:0x41099a68 class:Lcom/example/tworelatedcycle/MainActivity$1$3; field:8
+18803 rwId:392 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+18814   EXIT tid:3 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41096628
+18816 rwId:393 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:212
+18824 rwId:394 READ tid:1 obj:0x41085b18 class:Landroid/os/Handler; field:20
+18831 rwId:395 READ-STATIC tid:3 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:2147
+18843 rwId:396 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:48
+18845   ACCESS tid:1 accessId:20
+18846   POST src:1 msg:12 dest:-1 delay:0
+18865 rwId:397 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:36
+18927   EXIT tid:1 meth:<init> class:Ljava/lang/Throwable; obj:0x4109aff8
+18942 rwId:398 READ tid:1 obj:0x41099a68 class:Lcom/example/tworelatedcycle/MainActivity$1$3; field:8
+18944 rwId:399 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+18946 rwId:400 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+18947 rwId:401 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18948 rwId:402 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18949 rwId:403 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+18950 rwId:404 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+18958 rwId:405 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+18959 rwId:406 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18961 rwId:407 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18962 rwId:408 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18963 rwId:409 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18964 rwId:410 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+18965 rwId:411 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18966 rwId:412 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:12
+18967 MrwId:413 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:212
+18981 rwId:414 READ tid:1 obj:0x41085b18 class:Landroid/os/Handler; field:20
+18987   EXIT tid:3 meth:enlargeBuffer class:Ljava/lang/AbstractStringBuilder; obj:0x4109aec8
+18988 rwId:415 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18989 rwId:416 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+18992 rwId:417 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+18997 rwId:418 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+18998 rwId:419 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+18999 rwId:420 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19000 rwId:421 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19003 rwId:422 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19006 rwId:423 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19008 rwId:424 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19010   ACCESS tid:1 accessId:21
+19011   POST src:1 msg:13 dest:-1 delay:0
+19018   RET tid:1 msg:6 endAtomic
+19021   CALL tid:1 msg:7 beginAtomic
+19022 rwId:425 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19024 rwId:426 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:212
+19077 rwId:427 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:136
+19080 rwId:428 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:48
+19085 rwId:429 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:120
+19091 rwId:430 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:28
+19093 rwId:431 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:28
+19094 rwId:432 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:28
+19098   EXIT tid:3 meth:append class:Ljava/lang/StringBuilder; obj:0x4109b350
+19110 rwId:433 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19111 rwId:434 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19113 rwId:435 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19114 rwId:436 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19115 rwId:437 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19116 rwId:438 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19117 rwId:439 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19118 rwId:440 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:12
+19120 rwId:441 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19121 rwId:442 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19125 rwId:443 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+19126 rwId:444 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+19133 rwId:445 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:24
+19147 rwId:446 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19152 rwId:447 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19153 rwId:448 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19154 rwId:449 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19155 rwId:450 WRITE tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:12
+19156 rwId:451 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:16
+19157 rwId:452 READ tid:3 obj:0x4109aec8 class:Ljava/lang/StringBuilder; field:8
+19168   ACCESS tid:3 accessId:19
+19169   LOCK tid:3 lock-obj:0x4106a3d0
+19170 rwId:453 WRITE tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:136
+19171 rwId:454 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:136
+19174 rwId:455 READ tid:1 obj:0x4109c228 class:Landroid/view/MenuInflater; field:16
+19177 rwId:456 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+19181 MrwId:457 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+19191 rwId:458 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+19192 rwId:459 READ tid:3 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+19194   EXIT tid:1 meth:getResources class:Landroid/content/ContextWrapper; obj:0x4109c330
+19206   ACCESS tid:3 accessId:23
+19207   UNLOCK tid:3 lock-obj:0x4106a3d0
+19362 rwId:460 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:16
+19367 rwId:461 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:16
+19394 rwId:462 READ tid:3 obj:0x41099b48 class:Landroid/os/Handler; field:20
+19401 rwId:463 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:12
+19412   ACCESS tid:3 accessId:24
+19413   POST src:3 msg:14 dest:-1 delay:0
+19419 rwId:464 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:16
+19426 rwId:465 READ tid:1 obj:0x4109c228 class:Landroid/view/MenuInflater; field:16
+19432 rwId:466 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+19452 rwId:467 READ tid:3 obj:0x41099b48 class:Landroid/os/Handler; field:20
+19459 rwId:468 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:12
+19460   ENTRY tid:1 meth:initializeTheme class:Landroid/view/ContextThemeWrapper; obj:0x4109c330
+19463   ACCESS tid:3 accessId:25
+19464   POST src:3 msg:15 dest:-1 delay:0
+19465 rwId:469 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+19489 rwId:470 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+19490 rwId:471 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:20
+19503 rwId:472 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:12
+19504   ACCESS tid:3 accessId:26
+19505   RET tid:3 msg:10
+19552   CALL tid:3 msg:14
+19557 rwId:473 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19559 rwId:474 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19562 rwId:475 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19565 rwId:476 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19567 rwId:477 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19568 rwId:478 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19570 rwId:479 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19573 rwId:480 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19576 rwId:481 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19578 rwId:482 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19579 rwId:483 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19581 rwId:484 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19605 rwId:485 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19608 rwId:486 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19610 rwId:487 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19611 rwId:488 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19612 rwId:489 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19614 rwId:490 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19617 rwId:491 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19620 rwId:492 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19622 rwId:493 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19642 rwId:494 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19644 rwId:495 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19647 rwId:496 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19650 rwId:497 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19652 rwId:498 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19653 rwId:499 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19654 rwId:500 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19656 rwId:501 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19659 rwId:502 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19662 rwId:503 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19685 rwId:504 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19686 rwId:505 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19688 rwId:506 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19691 rwId:507 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19694 rwId:508 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19696 rwId:509 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19697 rwId:510 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19698 rwId:511 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19700 rwId:512 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19703 rwId:513 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19706 rwId:514 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19708 rwId:515 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+19729 rwId:516 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19730 rwId:517 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19732 rwId:518 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19735 rwId:519 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19738 rwId:520 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19740 rwId:521 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19741 rwId:522 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19742 rwId:523 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19744 rwId:524 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19747 rwId:525 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19758 rwId:526 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+19769 rwId:527 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19771 rwId:528 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19772 rwId:529 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19774 rwId:530 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19777 rwId:531 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19780 rwId:532 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19782 rwId:533 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19783 rwId:534 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19784 rwId:535 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19786 rwId:536 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19808 rwId:537 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+19809 rwId:538 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19812 rwId:539 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19814 rwId:540 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19815 rwId:541 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19817 rwId:542 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19820 rwId:543 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19823 rwId:544 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19825 rwId:545 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19826 rwId:546 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19827 rwId:547 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19829 rwId:548 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19853 rwId:549 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19856 rwId:550 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19858 rwId:551 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19859 rwId:552 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19861 rwId:553 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19864 rwId:554 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19867 rwId:555 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19869 rwId:556 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19877 rwId:557 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:8
+19895 rwId:558 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19896 rwId:559 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19898 rwId:560 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19901 rwId:561 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19904 rwId:562 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19906 rwId:563 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19907 rwId:564 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19909 rwId:565 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19912 rwId:566 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19915 rwId:567 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19938 rwId:568 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19939 rwId:569 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19940 rwId:570 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19942 rwId:571 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19945 rwId:572 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19948 rwId:573 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19950 rwId:574 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19951 rwId:575 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19953 rwId:576 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19956 rwId:577 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19959 rwId:578 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19982 rwId:579 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19983 rwId:580 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19984 rwId:581 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19986 rwId:582 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+19989 rwId:583 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+19992 rwId:584 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+19994 rwId:585 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+19995 rwId:586 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+19997 rwId:587 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20000 rwId:588 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20025 rwId:589 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20027 rwId:590 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20028 rwId:591 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20029 rwId:592 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20031 rwId:593 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20034 rwId:594 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20037 rwId:595 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20039 rwId:596 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20040 rwId:597 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20042 rwId:598 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20067 rwId:599 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20070 rwId:600 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20072 rwId:601 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20073 rwId:602 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20074 rwId:603 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20076 rwId:604 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20079 rwId:605 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20082 rwId:606 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20084 rwId:607 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20085 rwId:608 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20087 rwId:609 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20090 rwId:610 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20093 rwId:611 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20095 rwId:612 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20096 rwId:613 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20097 rwId:614 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20099 rwId:615 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20102 rwId:616 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20105 rwId:617 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20107 rwId:618 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20108 rwId:619 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20110   ACCESS tid:1 accessId:22
+20111   RET tid:1 msg:7 endAtomic
+20112   CALL tid:1 msg:8
+20113 rwId:620 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20116   RET tid:1 msg:8
+20117 rwId:621 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20120 rwId:622 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20122 rwId:623 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20123 rwId:624 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20124 rwId:625 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20126 rwId:626 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20129 rwId:627 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20132   CALL tid:1 msg:9
+20133   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091069336
+20134   POST src:1 msg:16 dest:-1 delay:0
+20135 rwId:628 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20137 rwId:629 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20138 rwId:630 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20140 rwId:631 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20143 rwId:632 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20146 rwId:633 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20148 rwId:634 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20149 rwId:635 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20150 rwId:636 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20152 rwId:637 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20155 rwId:638 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20158 rwId:639 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20160 rwId:640 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20161   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+20162   POST src:2 msg:17 dest:-1 delay:0
+20163   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+20164 rwId:641 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20166   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+20167   POST src:2 msg:18 dest:-1 delay:0
+20168   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+20169 rwId:642 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20172 rwId:643 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20175 rwId:644 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20177 rwId:645 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20178 rwId:646 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20179 rwId:647 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20180   NATIVE-ENTRY tid:5 thread-name:Binder Thread #2
+20181   POST src:5 msg:19 dest:-1 delay:0
+20182   NATIVE-EXIT tid:5 thread-name:Binder Thread #2
+20184 rwId:648 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20187 rwId:649 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20190 rwId:650 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20192 rwId:651 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20193 rwId:652 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20195 rwId:653 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20198 rwId:654 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20201 rwId:655 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20203 rwId:656 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20204 rwId:657 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20205 rwId:658 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20207 rwId:659 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20210 rwId:660 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20213 rwId:661 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20215 rwId:662 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20216 rwId:663 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20218 rwId:664 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20221 rwId:665 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20224 rwId:666 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20226 rwId:667 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20227 rwId:668 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20228 rwId:669 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20230 rwId:670 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20233 rwId:671 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20236 rwId:672 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20238 rwId:673 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20239   RET tid:1 msg:9
+20240   CALL tid:1 msg:11 beginAtomic
+20241 rwId:674 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20243 rwId:675 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20246 rwId:676 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20249 rwId:677 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20251 rwId:678 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20252 rwId:679 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20253 rwId:680 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20255 rwId:681 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20258 rwId:682 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20261 rwId:683 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20263 rwId:684 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20264 rwId:685 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20266 rwId:686 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20269 rwId:687 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20272 rwId:688 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20274 rwId:689 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20275 rwId:690 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20276 rwId:691 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20278 rwId:692 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20281 rwId:693 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20284 rwId:694 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20286 rwId:695 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20287 rwId:696 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20288   POST src:1 msg:20 dest:-1 delay:0
+20290 rwId:697 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20293 rwId:698 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20296 rwId:699 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20298 rwId:700 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20299 rwId:701 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20300 rwId:702 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20302 rwId:703 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20305 rwId:704 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20308 rwId:705 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20310 rwId:706 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20311 rwId:707 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20313 rwId:708 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20316 rwId:709 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20319 rwId:710 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20321 rwId:711 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20322 rwId:712 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20323 rwId:713 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20325 rwId:714 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20328 rwId:715 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20331 rwId:716 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20333 rwId:717 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20334 rwId:718 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20336 rwId:719 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20339 rwId:720 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20342 rwId:721 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20344 rwId:722 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20345 rwId:723 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20346 rwId:724 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20348 rwId:725 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20351 rwId:726 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20354 rwId:727 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20356 rwId:728 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20357 rwId:729 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20359 rwId:730 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20362 rwId:731 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20365 rwId:732 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20367 rwId:733 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20368 rwId:734 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20369 rwId:735 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20371 rwId:736 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20373   RET tid:1 msg:11 endAtomic
+20374   CALL tid:1 msg:12 beginAtomic
+20376 rwId:737 READ tid:1 obj:0x4109aeb8 class:Lcom/example/tworelatedcycle/MainActivity$1$3$1; field:8
+20378 rwId:738 READ tid:1 obj:0x41099a68 class:Lcom/example/tworelatedcycle/MainActivity$1$3; field:8
+20381 rwId:739 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20383 rwId:740 READ tid:1 obj:0x4109aeb8 class:Lcom/example/tworelatedcycle/MainActivity$1$3$1; field:8
+20385 rwId:741 READ tid:1 obj:0x41099a68 class:Lcom/example/tworelatedcycle/MainActivity$1$3; field:8
+20388 rwId:742 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20390 rwId:743 READ tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:228
+20391 rwId:744 WRITE tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:232
+20392 rwId:745 READ-STATIC tid:1 class:Lcom/example/tworelatedcycle/MainActivity$1$3$1; field:2147
+20399   ENTRY tid:3 meth:access$0 class:Lcom/example/tworelatedcycle/MainActivity$1$1; obj:0x00000000
+20400 rwId:746 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20403 rwId:747 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20405 rwId:748 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20406 rwId:749 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20408 rwId:750 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20411 rwId:751 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20414 rwId:752 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20421 rwId:753 READ tid:1 obj:0x409bc460 class:Ljava/lang/Thread; field:48
+20428 rwId:754 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20429 rwId:755 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20430 rwId:756 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20431 rwId:757 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20433 rwId:758 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20434 rwId:759 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20435 rwId:760 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20437 rwId:761 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20440 rwId:762 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20443 rwId:763 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20445 rwId:764 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20446 rwId:765 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20448 rwId:766 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20451 rwId:767 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20454 rwId:768 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20456 rwId:769 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20457 rwId:770 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20458 rwId:771 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20460 rwId:772 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20463 rwId:773 WRITE tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20471 rwId:774 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20472 rwId:775 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20474 rwId:776 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20475 rwId:777 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20476 rwId:778 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20477 rwId:779 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20478 rwId:780 WRITE tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20479 rwId:781 WRITE tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:12
+20481 rwId:782 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20482 rwId:783 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20485 rwId:784 WRITE tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20490 rwId:785 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20491 rwId:786 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20492 rwId:787 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20493 rwId:788 WRITE tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:12
+20494 rwId:789 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:16
+20495 rwId:790 READ tid:1 obj:0x4109e4d8 class:Ljava/lang/StringBuilder; field:8
+20501 rwId:791 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20504 rwId:792 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20506 rwId:793 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20507 rwId:794 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20509 rwId:795 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20512 rwId:796 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20515 rwId:797 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20517 rwId:798 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20518 rwId:799 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20522 rwId:800 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20524 rwId:801 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20527 rwId:802 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20530   ACCESS tid:1 accessId:28
+20531   LOCK tid:1 lock-obj:0x4106a3d0
+20532 rwId:803 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+20540 rwId:804 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20542 rwId:805 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20543 rwId:806 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20545 rwId:807 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20548 rwId:808 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20552 rwId:809 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+20553 rwId:810 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+20558   ACCESS tid:1 accessId:29
+20559   UNLOCK tid:1 lock-obj:0x4106a3d0
+20561 rwId:811 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20563 rwId:812 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20564 rwId:813 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20565 rwId:814 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20567 rwId:815 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20570 rwId:816 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20573 rwId:817 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20575 rwId:818 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20576 rwId:819 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20579   RET tid:1 msg:12 endAtomic
+20580   CALL tid:1 msg:13 beginAtomic
+20582 rwId:820 READ tid:1 obj:0x4109b200 class:Lcom/example/tworelatedcycle/MainActivity$1$3$2; field:8
+20584 rwId:821 READ tid:1 obj:0x41099a68 class:Lcom/example/tworelatedcycle/MainActivity$1$3; field:8
+20587 rwId:822 READ tid:1 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20589 rwId:823 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20592 rwId:824 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20595 rwId:825 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20597 rwId:826 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20598 rwId:827 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20599 rwId:828 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20600 rwId:829 WRITE tid:1 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:232
+20601 rwId:830 READ-STATIC tid:1 class:Lcom/example/tworelatedcycle/MainActivity$1$3$2; field:2147
+20613 rwId:831 READ tid:1 obj:0x409bc460 class:Ljava/lang/Thread; field:48
+20620 rwId:832 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20621 rwId:833 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20622 rwId:834 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20623 rwId:835 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20627 rwId:836 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20630 rwId:837 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20633 rwId:838 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20635 rwId:839 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20636 rwId:840 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20638 rwId:841 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20641 rwId:842 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20644 rwId:843 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20646 rwId:844 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20647 rwId:845 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20648 rwId:846 WRITE tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20656 rwId:847 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20657 rwId:848 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20659 rwId:849 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20660 rwId:850 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20661 rwId:851 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20662 rwId:852 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20663 rwId:853 WRITE tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20664 rwId:854 WRITE tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:12
+20665 rwId:855 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20667 rwId:856 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20670 rwId:857 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20673 rwId:858 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20675 rwId:859 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20676 rwId:860 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20678 rwId:861 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20681 rwId:862 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20684 rwId:863 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20686 rwId:864 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20687 rwId:865 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20689   READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20690 rwId:867 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20691 rwId:868 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20694 rwId:869 WRITE tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20699 rwId:870 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20700 rwId:871 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20701 rwId:872 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20702 rwId:873 WRITE tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:12
+20704 rwId:874 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20707 rwId:875 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20710 rwId:876 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20712 rwId:877 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20713 rwId:878 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20715 rwId:879 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20718 rwId:880 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20721 rwId:881 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20723 rwId:882 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:16
+20724 rwId:883 READ tid:1 obj:0x4109e620 class:Ljava/lang/StringBuilder; field:8
+20732   ACCESS tid:1 accessId:30
+20733   LOCK tid:1 lock-obj:0x4106a3d0
+20734 rwId:884 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+20743 rwId:885 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20744 rwId:886 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20745 rwId:887 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20747 rwId:888 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20750 rwId:889 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20753 rwId:890 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20755 rwId:891 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20756 rwId:892 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20758 rwId:893 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20761 rwId:894 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20763 rwId:895 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+20764 rwId:896 READ tid:1 obj:0x4106a3d0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+20768   ACCESS tid:1 accessId:31
+20769   UNLOCK tid:1 lock-obj:0x4106a3d0
+20772   RET tid:1 msg:13 endAtomic
+20773   CALL tid:1 msg:16
+20774   RET tid:1 msg:16
+20775   CALL tid:1 msg:17
+20778   RET tid:1 msg:17
+20779   CALL tid:1 msg:19
+20780   RET tid:1 msg:19
+20781 rwId:897 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20783 rwId:898 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20784 rwId:899 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20785 rwId:900 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20787 rwId:901 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20790 rwId:902 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20793 rwId:903 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20795 rwId:904 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20796 rwId:905 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20798 rwId:906 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20801   CALL tid:1 msg:18
+20802   RET tid:1 msg:18
+20803   CALL tid:1 msg:20 beginAtomic
+20804   RET tid:1 msg:20 endAtomic
+20805 rwId:907 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20808 rwId:908 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20810 rwId:909 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20811 rwId:910 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20812 rwId:911 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20814 rwId:912 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20817 rwId:913 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20820 rwId:914 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20822 rwId:915 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20823 rwId:916 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20825 rwId:917 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20828 rwId:918 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20831 rwId:919 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20833 rwId:920 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20834 rwId:921 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20835 rwId:922 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20837 rwId:923 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20840 rwId:924 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20843 rwId:925 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20845 rwId:926 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20846 rwId:927 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20848 rwId:928 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20851 rwId:929 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20854 rwId:930 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20856 rwId:931 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20857 rwId:932 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20858 rwId:933 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20860 rwId:934 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20863 rwId:935 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20866 rwId:936 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20868 rwId:937 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20869 rwId:938 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20871 rwId:939 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20874 rwId:940 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20877 rwId:941 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20879 rwId:942 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20880 rwId:943 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20881 rwId:944 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20883 rwId:945 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20886 rwId:946 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20889 rwId:947 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20891 rwId:948 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20892 rwId:949 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20894 rwId:950 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20897 rwId:951 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20900 rwId:952 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20902 rwId:953 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20903 rwId:954 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20904 rwId:955 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20906 rwId:956 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20909 rwId:957 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20912 rwId:958 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20914 rwId:959 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20915 rwId:960 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20917 rwId:961 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20920 rwId:962 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20923 rwId:963 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20925 rwId:964 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20926 rwId:965 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20927 rwId:966 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20929 rwId:967 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20932 rwId:968 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20935 rwId:969 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20937 rwId:970 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20938 rwId:971 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20940 rwId:972 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20943 rwId:973 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20946 rwId:974 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20948 rwId:975 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20949 rwId:976 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20950 rwId:977 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20952 rwId:978 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20955 rwId:979 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20958 rwId:980 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20960 rwId:981 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20961 rwId:982 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20963 rwId:983 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20966 rwId:984 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20969 rwId:985 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20971 rwId:986 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20972 rwId:987 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20973 rwId:988 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20975 rwId:989 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20978 rwId:990 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20981 rwId:991 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20983 rwId:992 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20984 rwId:993 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20986 rwId:994 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+20989 rwId:995 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+20992 rwId:996 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+20994 rwId:997 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20995 rwId:998 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+20996 rwId:999 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+20998 rwId:1000 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21001 rwId:1001 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21004 rwId:1002 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21006 rwId:1003 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21007 rwId:1004 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21009 rwId:1005 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21012 rwId:1006 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21015 rwId:1007 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21017 rwId:1008 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21018 rwId:1009 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21019 rwId:1010 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21021 rwId:1011 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21024 rwId:1012 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21027 rwId:1013 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21029 rwId:1014 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21030 rwId:1015 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21032 rwId:1016 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21035 rwId:1017 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21038 rwId:1018 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21040 rwId:1019 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21041 rwId:1020 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21042 rwId:1021 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21044 rwId:1022 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21047 rwId:1023 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21050 rwId:1024 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21052 rwId:1025 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21053 rwId:1026 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21055 rwId:1027 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21058 rwId:1028 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21061 rwId:1029 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21063 rwId:1030 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21064 rwId:1031 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21065 rwId:1032 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21067 rwId:1033 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21070 rwId:1034 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21073 rwId:1035 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21075 rwId:1036 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21076 rwId:1037 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21078 rwId:1038 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21081 rwId:1039 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21084 rwId:1040 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21086 rwId:1041 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21087 rwId:1042 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21088 rwId:1043 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21090 rwId:1044 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21093 rwId:1045 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21096 rwId:1046 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21098 rwId:1047 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21099 rwId:1048 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21101 rwId:1049 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21104 rwId:1050 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21107 rwId:1051 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21109 rwId:1052 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21110 rwId:1053 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21111 rwId:1054 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21113 rwId:1055 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21116 rwId:1056 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21119 rwId:1057 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21121 rwId:1058 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21122 rwId:1059 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21124 rwId:1060 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21127 rwId:1061 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21130 rwId:1062 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21132 rwId:1063 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21133 rwId:1064 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21134 rwId:1065 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21136 rwId:1066 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21139 rwId:1067 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21142 rwId:1068 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21144 rwId:1069 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21145 rwId:1070 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21147 rwId:1071 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21150 rwId:1072 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21153 rwId:1073 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21155 rwId:1074 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21156 rwId:1075 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21157 rwId:1076 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21159 rwId:1077 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21162 rwId:1078 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21165 rwId:1079 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21167 rwId:1080 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21168 rwId:1081 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21170 rwId:1082 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21173 rwId:1083 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21176 rwId:1084 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21178 rwId:1085 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21179 rwId:1086 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21180 rwId:1087 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21182 rwId:1088 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21185 rwId:1089 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21188 rwId:1090 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21190 rwId:1091 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21191 rwId:1092 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21193 rwId:1093 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21196 rwId:1094 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21199 rwId:1095 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21201 rwId:1096 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21202 rwId:1097 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21203 rwId:1098 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21205 rwId:1099 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21208 rwId:1100 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21211 rwId:1101 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21213 rwId:1102 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21214 rwId:1103 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21216 rwId:1104 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21219 rwId:1105 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21222 rwId:1106 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21224 rwId:1107 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21225 rwId:1108 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21226 rwId:1109 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21228 rwId:1110 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21231 rwId:1111 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21234 rwId:1112 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21236 rwId:1113 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21237 rwId:1114 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21239 rwId:1115 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21242 rwId:1116 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21245 rwId:1117 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21247 rwId:1118 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21248 rwId:1119 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21249 rwId:1120 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21251 rwId:1121 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21254 rwId:1122 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21257 rwId:1123 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21259 rwId:1124 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21260 rwId:1125 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21262 rwId:1126 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21265 rwId:1127 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21268 rwId:1128 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21270 rwId:1129 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21271 rwId:1130 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21272 rwId:1131 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21274 rwId:1132 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21277 rwId:1133 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21280 rwId:1134 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21282 rwId:1135 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21283 rwId:1136 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21285 rwId:1137 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21288 rwId:1138 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21291 rwId:1139 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21293 rwId:1140 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21294 rwId:1141 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21295 rwId:1142 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21297 rwId:1143 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21300 rwId:1144 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21303 rwId:1145 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21305 rwId:1146 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21306 rwId:1147 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21308 rwId:1148 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21311 rwId:1149 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21314 rwId:1150 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21316 rwId:1151 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21317 rwId:1152 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21318 rwId:1153 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21320 rwId:1154 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21323 rwId:1155 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21326 rwId:1156 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21328 rwId:1157 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21329 rwId:1158 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21331 rwId:1159 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21334 rwId:1160 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21337 rwId:1161 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21339 rwId:1162 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21340 rwId:1163 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21341 rwId:1164 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21343 rwId:1165 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21346 rwId:1166 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21349 rwId:1167 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21351 rwId:1168 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21352 rwId:1169 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21354 rwId:1170 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21357 rwId:1171 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21360 rwId:1172 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21362 rwId:1173 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21363 rwId:1174 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21364 rwId:1175 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21366 rwId:1176 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21369 rwId:1177 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21372 rwId:1178 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21374 rwId:1179 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21375 rwId:1180 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21377   POST src:1 msg:21 dest:-1 delay:0
+21378 rwId:1181 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21381 rwId:1182 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21384 rwId:1183 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21386 rwId:1184 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21387 rwId:1185 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21388 rwId:1186 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21390 rwId:1187 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21393 rwId:1188 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21396 rwId:1189 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21398 rwId:1190 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21399 rwId:1191 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21401 rwId:1192 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21404 rwId:1193 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21407 rwId:1194 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21409 rwId:1195 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21410 rwId:1196 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21411 rwId:1197 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21413 rwId:1198 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21416 rwId:1199 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21419 rwId:1200 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21421 rwId:1201 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21422 rwId:1202 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21424 rwId:1203 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21427 rwId:1204 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21430 rwId:1205 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21432 rwId:1206 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21433 rwId:1207 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21434 rwId:1208 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21436 rwId:1209 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21439 rwId:1210 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21440   POST src:1 msg:22 dest:-1 delay:0
+21441   CALL tid:1 msg:22
+21442   QUEUE_IDLE tid:1 idler:1091144296 queue:1090968376
+21445   RET tid:1 msg:22
+21446 rwId:1211 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21448 rwId:1212 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21449 rwId:1213 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21451 rwId:1214 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21454 rwId:1215 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21456   REMOVE_IDLE_HANDLER idler:1091144296 queue:1090968376
+21457   CALL tid:1 msg:21
+21459   TRIGGER-EVENT tid:1 view:0 event:3
+21460 rwId:1216 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21462 rwId:1217 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21463 rwId:1218 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21464 rwId:1219 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21466 rwId:1220 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21469 rwId:1221 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21472 rwId:1222 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21474 rwId:1223 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21475 rwId:1224 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21477 rwId:1225 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21480   ENABLE-LIFECYCLE tid:1 component:MainActivity id:1091066024 state:PAUSE-ACT
+21481   ENABLE-LIFECYCLE tid:1 component:MainActivity id:1091066024 state:DESTROY-ACT
+21482   NATIVE-ENTRY tid:6 thread-name:Binder Thread #3
+21483   POST src:6 msg:23 dest:-1 delay:0
+21484   NATIVE-EXIT tid:6 thread-name:Binder Thread #3
+21485   ENABLE-LIFECYCLE tid:1 component:MainActivity id:1091066024 state:PAUSE-ACT
+21486   RET tid:1 msg:21
+21487   CALL tid:1 msg:23 beginAtomic
+21488   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091066024 state:PAUSE-ACT
+21489 rwId:1226 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21492 rwId:1227 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21494 rwId:1228 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21495 rwId:1229 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21496 rwId:1230 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21498 rwId:1231 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21501 rwId:1232 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21504 rwId:1233 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21506 rwId:1234 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21507 rwId:1235 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21509 rwId:1236 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21510   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+21511   POST src:2 msg:24 dest:-1 delay:0
+21512   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+21515 rwId:1237 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21518 rwId:1238 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21520 rwId:1239 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21521 rwId:1240 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21522 rwId:1241 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21524 rwId:1242 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21527 rwId:1243 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21529   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091069336
+21530   ENABLE-LIFECYCLE tid:1 component: id:0 state:RESUME-ACT
+21531   RET tid:1 msg:23 endAtomic
+21532   CALL tid:1 msg:24
+21533   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091069336
+21534   NATIVE-ENTRY tid:5 thread-name:Binder Thread #2
+21535   POST src:5 msg:25 dest:-1 delay:0
+21536   NATIVE-EXIT tid:5 thread-name:Binder Thread #2
+21537   NATIVE-ENTRY tid:5 thread-name:Binder Thread #2
+21538   POST src:5 msg:26 dest:-1 delay:0
+21539   NATIVE-EXIT tid:5 thread-name:Binder Thread #2
+21541 rwId:1244 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21543 rwId:1245 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21544 rwId:1246 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21546 rwId:1247 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21549 rwId:1248 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21552 rwId:1249 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21554 rwId:1250 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21555 rwId:1251 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21556 rwId:1252 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21558 rwId:1253 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21561 rwId:1254 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21562   RET tid:1 msg:24
+21563   CALL tid:1 msg:25
+21564   RET tid:1 msg:25
+21565   CALL tid:1 msg:26
+21566   RET tid:1 msg:26
+21567   EXIT tid:3 meth:access$0 class:Lcom/example/tworelatedcycle/MainActivity$1$1; obj:0x00000000
+21569 rwId:1255 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21571 rwId:1256 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21572 rwId:1257 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21574 rwId:1258 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21577 rwId:1259 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21580 rwId:1260 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21582 rwId:1261 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21583 rwId:1262 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21584 rwId:1263 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21586 rwId:1264 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21589 rwId:1265 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21592 rwId:1266 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21594 rwId:1267 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21595 rwId:1268 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21597 rwId:1269 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21600 rwId:1270 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21603 rwId:1271 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21605 rwId:1272 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21606 rwId:1273 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21607 rwId:1274 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21609 rwId:1275 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21612 rwId:1276 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21615 rwId:1277 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21617 rwId:1278 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21618 rwId:1279 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21620 rwId:1280 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21623 rwId:1281 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21626 rwId:1282 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21628 rwId:1283 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21629 rwId:1284 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21630 rwId:1285 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21632 rwId:1286 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21635 rwId:1287 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21636   NATIVE-ENTRY tid:7 thread-name:Binder Thread #4
+21637   POST src:7 msg:27 dest:-1 delay:0
+21638   NATIVE-EXIT tid:7 thread-name:Binder Thread #4
+21639   CALL tid:1 msg:27
+21640   POST src:1 msg:28 dest:-1 delay:0
+21641   RET tid:1 msg:27
+21642   CALL tid:1 msg:28
+21645 rwId:1288 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21647 rwId:1289 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21648 rwId:1290 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21650 rwId:1291 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21653 rwId:1292 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21656 rwId:1293 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21658 rwId:1294 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21659 rwId:1295 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21660 rwId:1296 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21661   RET tid:1 msg:28
+21663 rwId:1297 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21666 rwId:1298 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21669 rwId:1299 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21671 rwId:1300 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21672 rwId:1301 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21674 rwId:1302 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21677 rwId:1303 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21680 rwId:1304 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21682 rwId:1305 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21683 rwId:1306 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21684 rwId:1307 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21686 rwId:1308 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21689 rwId:1309 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21692 rwId:1310 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21694 rwId:1311 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21695 rwId:1312 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21697 rwId:1313 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21700 rwId:1314 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21703 rwId:1315 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21705 rwId:1316 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21706 rwId:1317 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21707 rwId:1318 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21709 rwId:1319 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21712 rwId:1320 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21715 rwId:1321 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21717 rwId:1322 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21718 rwId:1323 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21720 rwId:1324 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21723 rwId:1325 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21726 rwId:1326 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21728 rwId:1327 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21729 rwId:1328 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21730 rwId:1329 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21732 rwId:1330 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21735 rwId:1331 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21738 rwId:1332 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21740 rwId:1333 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21741 rwId:1334 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21743 rwId:1335 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21744   NATIVE-ENTRY tid:6 thread-name:Binder Thread #3
+21745   POST src:6 msg:29 dest:-1 delay:0
+21746   NATIVE-EXIT tid:6 thread-name:Binder Thread #3
+21747   NATIVE-ENTRY tid:6 thread-name:Binder Thread #3
+21748   POST src:6 msg:30 dest:-1 delay:0
+21749   NATIVE-EXIT tid:6 thread-name:Binder Thread #3
+21750   CALL tid:1 msg:29
+21751   RET tid:1 msg:29
+21752   CALL tid:1 msg:30 beginAtomic
+21753   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091066024 state:STOP-ACT
+21754   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091066024 state:DESTROY-ACT
+21757 rwId:1336 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21760 rwId:1337 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21762 rwId:1338 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21763 rwId:1339 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21764 rwId:1340 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21766 rwId:1341 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21769 rwId:1342 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21772 rwId:1343 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21774 rwId:1344 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21775 rwId:1345 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21777 rwId:1346 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21780 rwId:1347 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21783 rwId:1348 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21785 rwId:1349 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21786 rwId:1350 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21787 rwId:1351 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21789 rwId:1352 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21792 rwId:1353 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21795 rwId:1354 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21797 rwId:1355 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21798 rwId:1356 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21800 rwId:1357 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21803 rwId:1358 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21806 rwId:1359 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21808 rwId:1360 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21809 rwId:1361 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21810 rwId:1362 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21812 rwId:1363 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21815 rwId:1364 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21818 rwId:1365 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21820 rwId:1366 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21821 rwId:1367 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21823 rwId:1368 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21826   POST src:1 msg:31 dest:-1 delay:0
+21827 rwId:1369 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21830 rwId:1370 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21832 rwId:1371 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21833 rwId:1372 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21834 rwId:1373 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21836 rwId:1374 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21839 rwId:1375 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21842 rwId:1376 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21844 rwId:1377 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21845 rwId:1378 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21847 rwId:1379 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21850 rwId:1380 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21853 rwId:1381 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21855 rwId:1382 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21856 rwId:1383 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21857 rwId:1384 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21859 rwId:1385 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21862 rwId:1386 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21865 rwId:1387 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21867 rwId:1388 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21868 rwId:1389 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21870 rwId:1390 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21873 rwId:1391 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21876 rwId:1392 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21878 rwId:1393 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21879 rwId:1394 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21880 rwId:1395 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21882 rwId:1396 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21885 rwId:1397 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21888 rwId:1398 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21890 rwId:1399 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21891 rwId:1400 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21893 rwId:1401 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21896 rwId:1402 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21899 rwId:1403 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21901 rwId:1404 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21902 rwId:1405 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21903 rwId:1406 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21905 rwId:1407 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21908 rwId:1408 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21911 rwId:1409 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21913 rwId:1410 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21914 rwId:1411 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21916 rwId:1412 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21919 rwId:1413 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21922 rwId:1414 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21924 rwId:1415 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21925 rwId:1416 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21926 rwId:1417 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21928 rwId:1418 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21931 rwId:1419 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21934 rwId:1420 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21936 rwId:1421 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21937 rwId:1422 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21939 rwId:1423 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21942 rwId:1424 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21945 rwId:1425 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21947 rwId:1426 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21948 rwId:1427 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21949 rwId:1428 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21951 rwId:1429 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21954 rwId:1430 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21957 rwId:1431 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21959 rwId:1432 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21960 rwId:1433 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21962 rwId:1434 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21965 rwId:1435 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21968 rwId:1436 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21970 rwId:1437 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21971 rwId:1438 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21972 rwId:1439 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21974 rwId:1440 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21977 rwId:1441 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21980 rwId:1442 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21982 rwId:1443 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21983 rwId:1444 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21985 rwId:1445 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+21988 rwId:1446 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+21991 rwId:1447 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+21993 rwId:1448 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21994 rwId:1449 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+21995 rwId:1450 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+21997 rwId:1451 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+22000 rwId:1452 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+22003 rwId:1453 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+22005 rwId:1454 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+22006 rwId:1455 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+22008 rwId:1456 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+22011 rwId:1457 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+22014 rwId:1458 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+22016 rwId:1459 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+22017 rwId:1460 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+22018 rwId:1461 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+22020 rwId:1462 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+22023 rwId:1463 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+22026 rwId:1464 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+22028 rwId:1465 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+22029 rwId:1466 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+22031 rwId:1467 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+22034 rwId:1468 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+22037 rwId:1469 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+22039 rwId:1470 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+22040 rwId:1471 WRITE tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+22041 rwId:1472 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+22043 rwId:1473 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
+22046 rwId:1474 READ tid:3 obj:0x41099098 class:Lcom/example/tworelatedcycle/MainActivity$1$1; field:80
+22049 rwId:1475 READ tid:3 obj:0x410969b8 class:Lcom/example/tworelatedcycle/MainActivity$1; field:8
+22051 rwId:1476 READ tid:3 obj:0x410858a8 class:Lcom/example/tworelatedcycle/MainActivity; field:224
+22052 rwId:1477 READ tid:3 obj:0x4109c6f8 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1$1; field:8
+22054 rwId:1478 READ tid:3 obj:0x4109a730 class:Lcom/example/tworelatedcycle/MainActivity$1$1$1; field:8
